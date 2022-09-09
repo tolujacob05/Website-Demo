@@ -124,3 +124,15 @@ nav ul li a:hover::before{
     padding: 5px;
     background-color: tomato;
 }
+.addToCart {
+    position: relative;
+    top: 20%;
+    border: 2px solid tomato;
+    width: 100px;
+    padding: 13px;
+    background: tomato;
+}
+.addToCart:hover {
+    width: 100px;
+    color: aqua;
+}
