@@ -1,0 +1,123 @@
+body {
+    background: rgb(178, 249, 226);
+}
+nav {
+    display: flex;
+    align-items: center;
+    padding: 20px 0%;
+    background: white;
+}
+nav .logo {
+    font-size: 32px;
+    font-weight: 600;
+    cursor: pointer;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10rem;
+}
+nav ul li a {
+    display: block;
+    gap: 0;
+    margin: 0 10px;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+}
+nav ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    width: 0%;
+    height: 2.5px;
+    transition: all 0.3s ease;
+}
+.pic img {
+    height: 8vh;
+    position: relative;
+    left: 55%;
+    border-radius: 30%;
+}
+nav ul i {
+    margin-left: 2rem;
+}
+nav ul li a:hover::before{
+    width: 100%;
+}
+.flex-box {
+    display: flex;
+    width: 1000px;
+    margin: 20px auto;
+}
+.left {
+    width: 50%;
+}
+.big-image {
+    width: 250px;
+}
+.big-image img {
+    width: inherit;
+}
+.images {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 15px;
+}
+.small-image {
+    width: 50px;
+    overflow: hidden;
+    border: 1.5px solid black;
+}
+.small-image img {
+    width: inherit;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.small-image:hover img {
+    transform: scale(1.2);
+}
+.url {
+    color: tomato;
+}
+.pname {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: sans-serif;
+    position: relative;
+    top: 8%;
+}
+.P {
+    font-size: 0.9rem; 
+    font-weight: 200;
+    font-family: sans-serif;
+    position: relative;
+    top: 20%;
+}
+
+.price {
+    position: relative;
+    top: 25%;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.price-less {
+    position: relative;
+    top: 16%;
+    font-weight: lighter;
+}
+.percentage {
+    position: relative;
+    top: 14%;
+    right: -28%;
+    border: 2px solid tomato;
+    width: 30px;
+    height: 10px;
+    padding: 5px;
+    background-color: tomato;
+}
