@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEARNING WEBSITE DEVELOPMENT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/Css/all.min.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav>
+        <div class="logo">Sneaker</div>
+        <ul>
+            <li><a href="#">Collection</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <i class="fas fa-shopping-cart"></i>
+        </ul>
+        <div class="pic"><img src="/images/pic (5).jpg"></div>
+    </nav>
+
+    <div class="flex-box">
+        <div class="left">
+            <div class="big-image">
+                <img src="/images/crazy-crocs.jpg">
+           </div>
+           <div class="images">
+               <div class="small-image">
+                  <img src="/images/crazy-crocs 2.jpg">
+               </div>
+               <div class="small-image">
+                  <img src="/images/crazy-crocs 3.jpg">
+               </div>
+               <div class="small-image">
+                  <img src="/images/crazy-crocs 4.jpg">
+               </div>
+               <div class="small-image">
+                  <img src="/images/crazy-crocs 5.jpg">
+               </div>
+            </div> 
+        </div>
+
+        <div class="right">
+            <div class="url">SNEAKER COMPANY</div>
+            <div class="pname">Fall Limited Edition <br> Sneakers</div>
+            <div class="P">These low-profile sneakers are your perfect casual wear <br> copanion. Featuring a durable rubber outer sole, they'll <br> withstand everything the weather can offer.</div>
+            <div class="price">$125.00</div>
+            <div class="percentage">-50%</div>
+            <div class="price-less"><del>$250.00</del></div>
+        </div>
+    </div>
+    
+
+    
+
+
+
+
+
+
+
+
+
+  <script>
+    let bigImage = document.querySelector('.big-image img')
+    function showImg(pic){
+        bigImg.src = pic;
+    }
+  </script>  
+
+    
+</body>
+</html>
