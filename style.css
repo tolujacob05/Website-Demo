@@ -1,6 +1,7 @@
 body {
     background: rgb(178, 249, 226);
 }
+/* NAVBAR SECTIONS */
 nav {
     display: flex;
     align-items: center;
@@ -49,6 +50,7 @@ nav ul i {
 nav ul li a:hover::before{
     width: 100%;
 }
+/* FLEX-BOX SECTION */
 .flex-box {
     display: flex;
     width: 1000px;
@@ -82,6 +84,7 @@ nav ul li a:hover::before{
 .small-image:hover img {
     transform: scale(1.2);
 }
+/* TEXT SECTION */
 .url {
     color: tomato;
 }
